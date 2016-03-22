@@ -10,7 +10,7 @@ public class HashMapCollection {
 	// 3, 3, 5}.
 	public static void main(String[] args) {
 
-		int[] numbers = { 4, 2, 2, 5, 2, 3, 2, 3, 1, 5, 2, 6, 6, 6, 77 };
+		int[] numbers = { 4, 2, 2, 5, 2, 3, 2, 3, 1, 5, 2, 6, 6, 6, 77, 77 };
 		ArrayList<Integer> list = null, finalList = null;
 		list = createArraylist(numbers, list);
 		System.out.println("Input data: " + list);
@@ -20,7 +20,7 @@ public class HashMapCollection {
 		System.out.println("Created HashMap: " + hashMap);
 
 		finalList = createFinalList(hashMap, list);
-		System.out.println("Final extracted list with odd numbers: " + finalList);
+		System.out.println("Final extracted list with odd occurrences of numbers: " + finalList);
 	}
 
 	private static ArrayList<Integer> createArraylist(int[] numbers, ArrayList<Integer> arrayList) {
