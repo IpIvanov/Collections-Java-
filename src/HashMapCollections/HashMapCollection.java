@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class HashMapCollection {
-
+	// Напишете програма, която премахва всички числа, които се срещат нечетен
+	// брой пъти в дадена редица. Например, ако имаме началната редица {4, 2, 2,
+	// 5, 2, 3, 2, 3, 1, 5, 2, 6, 6, 6}, трябва да я редуцираме до редицата {5,
+	// 3, 3, 5}.
 	public static void main(String[] args) {
 
 		int[] numbers = { 4, 2, 2, 5, 2, 3, 2, 3, 1, 5, 2, 6, 6, 6, 77 };
