@@ -1,4 +1,4 @@
-package HashMapCollections;
+package problem1;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,7 +20,7 @@ public class HashMapCollection {
 		System.out.println("Created HashMap: " + hashMap);
 
 		finalList = createFinalList(hashMap, list);
-		System.out.println("Final extracted list with odd occurrences of numbers: " + finalList);
+		System.out.println("Final extracted list with even occurrences of numbers: " + finalList);
 	}
 
 	private static ArrayList<Integer> createArraylist(int[] numbers, ArrayList<Integer> arrayList) {
