@@ -1,6 +1,6 @@
 package problem3;
 
-public interface TwoKeysAndValue<K2, V, K> extends Iterable<HashTable<K2, V, K>> {
+public interface TwoKeysAndValue<K, K2, V> extends Iterable<HashTable<K, K2, V>> {
 
 	V putByThreeValues(K key, K2 key2, V value);
 

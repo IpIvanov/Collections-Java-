@@ -12,11 +12,11 @@ public class HashDictionaryExample {
 			System.out.print(entry + " ");
 		}
 		System.out.println();
-		System.out.println("Is dictionary empyt? -> " + names.isEmpty());
+		System.out.println("Is dictionary empty? -> " + names.isEmpty());
 		// Use the iterator to traverse all entries
 		System.out.println("Clearing the dictionary");
 		names.clear();
-		System.out.println("Is dictionary empyt? -> " + names.isEmpty());
+		System.out.println("Is dictionary empty? -> " + names.isEmpty());
 	}
 
 }
